@@ -1,4 +1,4 @@
-@import "imports";
+@import "./imports";
 
 .title {
   font-family: $font-secondary;
@@ -8,4 +8,13 @@ head,
 body {
   margin: 0;
   padding: 0;
+}
+
+$color-green: #3ea535;
+$color-purple: #6f4692;
+$color-blue: #41a3db;
+$color-yellow: #dfc500;
+
+@mixin foreground-color-green {
+  color: $color-green;
 }
