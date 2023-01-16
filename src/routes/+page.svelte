@@ -1,5 +1,9 @@
 <script>
   import interactionWithPublic from "$lib/images/interaction-with-public.jpg";
+  import umbrellaMan from "$lib/images/umbrella-man.jpg";
+  import discussing from "$lib/images/discussing.jpg";
+  import publicApproves from "$lib/images/public-approves.jpg";
+  import voteForMe from "$lib/images/vote-for-me.jpg";
 </script>
 
 <header>
@@ -24,49 +28,37 @@
 
   <section>
     <div class="image-wrapper">
-      <img
-        src={interactionWithPublic}
-        alt="Thomas Manship interacting with the local voting public"
-      />
+      <img src={discussing} alt="Thomas Manship discussing the school improvement plan" />
     </div>
     <div class="text-wrapper">
-      <p>POV: Thomas Manship interacting with the local voting public</p>
+      <p>You can't wait to see Thomas Manship discussing the school improvement plan</p>
     </div>
   </section>
 
   <section>
     <div class="image-wrapper">
-      <img
-        src={interactionWithPublic}
-        alt="Thomas Manship interacting with the local voting public"
-      />
+      <img src={umbrellaMan} alt="Thomas Manship holding an umbrella indoors" />
     </div>
     <div class="text-wrapper">
-      <p>POV: Thomas Manship interacting with the local voting public</p>
+      <p>Thomas Manship makes his own luck</p>
     </div>
   </section>
 
   <section>
     <div class="image-wrapper">
-      <img
-        src={interactionWithPublic}
-        alt="Thomas Manship interacting with the local voting public"
-      />
+      <img src={voteForMe} alt="Thomas Manship being angry" />
     </div>
     <div class="text-wrapper">
-      <p>POV: Thomas Manship interacting with the local voting public</p>
+      <p>POV: Thomas Manship when you don't vote for Thomas Manship</p>
     </div>
   </section>
 
   <section>
     <div class="image-wrapper">
-      <img
-        src={interactionWithPublic}
-        alt="Thomas Manship interacting with the local voting public"
-      />
+      <img src={publicApproves} alt="Thomas Manship talking to the public" />
     </div>
     <div class="text-wrapper">
-      <p>POV: Thomas Manship interacting with the local voting public</p>
+      <p>The public LOVES Thomas Manship!</p>
     </div>
   </section>
 </main>
